@@ -5,21 +5,21 @@ layout: home
 hero:
   name: "Gildsmith"
   text: "Dev Docs"
-  tagline: My great project tagline
+  tagline: ecommerce without clutter
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Get Started
+      link: /introduction
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Install
+      link: /quick-start
 
 features:
-  - title: Feature A
+  - title: Clean Code
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: Modern Stack
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: Truly Modular
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

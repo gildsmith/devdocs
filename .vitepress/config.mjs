@@ -1,29 +1,43 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Gildsmith",
+  title: "Gildsmith • Dev Docs",
   description: "Dev Docs",
   base: "/devdocs/",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: 'local'
+    },
+
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'User Guide', link: 'https://gildsmith.github.io/userguide/' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Getting Started',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Introduction', link: '/introduction' },
+          { text: 'Quick Start', link: '/quick-start' }
         ]
-      }
+      },
+      {
+        text: 'Frontend Development',
+        items: [
+          { text: 'To Do', link: '/introduction' },
+        ]
+      },
+      {
+        text: 'Backend Development',
+        items: [
+          { text: 'To Do', link: '/introduction' },
+        ]
+      },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/gildsmith/gildsmith' }
     ]
   }
 })
