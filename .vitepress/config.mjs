@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Gildsmith",
   description: "Dev Docs",
+  base: "/devdocs/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
