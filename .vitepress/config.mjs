@@ -9,7 +9,6 @@ export default defineConfig({
     ],
     themeConfig: {
         logo: '/logo.svg',
-        logoLink: '/devdocs/installation',
 
         search: {
             provider: 'local',
@@ -20,7 +19,6 @@ export default defineConfig({
         },
 
         nav: [
-            {text: 'Quick Start', link: '/installation'},
             {text: 'User Guide', link: 'https://gildsmith.github.io/userguide/'},
         ],
 
@@ -28,7 +26,7 @@ export default defineConfig({
             {
                 text: 'Getting Started',
                 items: [
-                    {text: 'Installation', link: '/installation'},
+                    {text: 'Installation', link: '/'},
                     {text: 'Changelog', link: '/changelog'},
                     {text: '❌ Deployment', link: '#'},
                 ],
