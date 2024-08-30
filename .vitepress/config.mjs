@@ -11,7 +11,7 @@ export default defineConfig({
         logo: '/logo.svg',
 
         editLink: {
-            pattern: 'https://github.com/gildsmith/devdocs/edit/master:path',
+            pattern: 'https://github.com/gildsmith/devdocs/edit/master/:path',
             text: 'Edit this page on GitHub',
         },
 
