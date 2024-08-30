@@ -10,6 +10,11 @@ export default defineConfig({
     themeConfig: {
         logo: '/logo.svg',
 
+        editLink: {
+            pattern: 'https://github.com/gildsmith/devdocs/edit/master:path',
+            text: 'Edit this page on GitHub',
+        },
+
         search: {
             provider: 'local',
         },
@@ -65,6 +70,8 @@ export default defineConfig({
                 text: 'Backend Packages',
                 items: [
                     {text: '❌ Core (red)', link: '#'},
+                    {text: '❌ Cart', link: '#'},
+                    {text: '❌ Product', link: '#'},
                     {text: '❌ Profile', link: '#'},
                 ],
             },
