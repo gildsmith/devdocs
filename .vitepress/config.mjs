@@ -4,7 +4,13 @@ export default defineConfig({
     title: 'Gildsmith • Dev Docs',
     description: 'Dev Docs',
     base: '/devdocs/',
+    head: [
+        ['link', {rel: 'icon', href: '/devdocs/favicon.ico'}],
+    ],
     themeConfig: {
+        logo: '/logo.svg',
+        logoLink: '/devdocs/installation',
+
         search: {
             provider: 'local',
         },
