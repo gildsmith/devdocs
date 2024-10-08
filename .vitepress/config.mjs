@@ -4,6 +4,7 @@ export default defineConfig({
     title: 'Gildsmith • Dev Docs',
     description: 'Dev Docs',
     base: '/devdocs/',
+    srcDir: './src',
     head: [
         ['link', {rel: 'icon', href: '/devdocs/favicon.ico'}],
     ],
@@ -32,19 +33,17 @@ export default defineConfig({
                 text: 'Getting Started',
                 items: [
                     {text: 'Installation', link: '/'},
-                    {text: 'Changelog', link: '/changelog'},
+                    {text: 'Gildsmith Architecture', link: '/architecture'},
                     {text: '❌ Deployment', link: '#'},
                 ],
             },
             {
-                text: 'Frontend Development',
+                text: 'Architecture',
                 items: [
-                    {text: 'Introduction', link: '/frontend'},
-                    {text: '❌ Directory Structure', link: '#'},
-                    {text: '❌ Package Development', link: '#'},
-                    {text: '❌ Extending Packages', link: '#'},
+                    {text: '❌ Introduction', link: '#'},
+                    {text: '❌ Headless Backend', link: '#'},
                     {text: '❌ Standalone Frontend', link: '#'},
-                ],
+                ]
             },
             {
                 text: 'Backend Development',
@@ -57,24 +56,41 @@ export default defineConfig({
                 ],
             },
             {
-                text: 'Frontend Packages',
+                text: 'Frontend Development',
                 items: [
-                    {text: '❌ Cart', link: '#'},
-                    {text: '❌ Dashboard', link: '#'},
-                    {text: '❌ Product', link: '#'},
-                    {text: '❌ Profile', link: '#'},
-                    {text: '❌ Storefront', link: '#'},
+                    {text: '⚠️ Introduction', link: '/frontend'},
+                    {text: '❌ Directory Structure', link: '#'},
+                    {text: '❌ Package Development', link: '#'},
+                    {text: '❌ Extending Packages', link: '#'},
+                    {text: '⚠️ Standalone Frontend', link: '/frontend/standalone-frontend'},
                 ],
             },
             {
-                text: 'Backend Packages',
+                text: 'Dashboard Web App',
                 items: [
-                    {text: '❌ Core (red)', link: '#'},
-                    {text: '❌ Cart', link: '#'},
-                    {text: '❌ Product', link: '#'},
-                    {text: '❌ Profile', link: '#'},
-                ],
-            },
+                    {text: '❌ Introduction', link: '#'},
+                    {text: '⚠️ UI Components', link: '#'}
+                ]
+            }
+            // {
+            //     text: 'Frontend Packages',
+            //     items: [
+            //         {text: '❌ Cart', link: '#'},
+            //         {text: '❌ Dashboard', link: '#'},
+            //         {text: '❌ Product', link: '#'},
+            //         {text: '❌ Profile', link: '#'},
+            //         {text: '❌ Storefront', link: '#'},
+            //     ],
+            // },
+            // {
+            //     text: 'Backend Packages',
+            //     items: [
+            //         {text: '❌ Core (red)', link: '#'},
+            //         {text: '❌ Cart', link: '#'},
+            //         {text: '❌ Product', link: '#'},
+            //         {text: '❌ Profile', link: '#'},
+            //     ],
+            // },
         ],
 
         socialLinks: [

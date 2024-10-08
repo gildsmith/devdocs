@@ -1,5 +1,7 @@
 # Installation
 
+[[toc]]
+
 ## About Gildsmith
 
 We built Gildsmith out of frustration with the complexity of existing ecommerce
